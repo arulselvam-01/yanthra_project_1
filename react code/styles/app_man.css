@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.window{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.left_containner{
+    height: 100vh;
+    background-color: #172031;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 250px;
+
+}
+
+.back_button{
+    background-color: #262f3f;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 15px;
+    position: absolute;
+    right: 3px;
+    top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.profile_containner{
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.profile_containner .profile{
+    background-color: rgb(91, 73, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 150px;
+
+}
+
+.profile_containner .profile_name{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.menu_containner{
+    border-top: 1px solid rgba(128, 128, 128, 0.267);
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.menu_containner ul{
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.menu_containner ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 7px 0px;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize
+}
+
+
+
+/* right containner */
+
+.right_containner{
+    position: relative;
+    width: 100%;
+}
+
+.top_search_containner{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.search_bar{
+    padding: 3px;
+    border-radius: 150px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search_bar img{
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+    opacity: 50%;
+
+}
+
+.search_bar input{
+    border: none;
+    outline: none;
+    height: 100%;
+    padding: 3px;
+    color: grey;
+    font-size: 12px;
+}
+
+.top_search_containner img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+
+.search_bar_profile{
+    background-color: rgb(91, 73, 255);
+    height: 35px;
+    width: 35px;
+    border-radius: 150px;
+    margin-left: 10px;
+}
+
+.app_man_con{
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.app_man_heading{
+    color: #32347c;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.new_sechedule_con{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.new_sechedule_con img{
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+}
+
+.new_sechedule_con button{
+    padding: 10px 10px;
+    background-color: #5cdd8b;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+
+}
+
+.display_con{
+    width: 100%;
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.144);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.left_profile_con{
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+thead{
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+th{
+    text-align: left;
+    padding: 10px;
+
+}
+
+td{
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+    background-color: white;
+}
+
+td img{
+    height: 20px;
+    width: 20px;
+}
+
+.name{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.hash{
+    color: grey;
+    font-size: 10px;
+}
+
+.loco{
+    background-color: rgb(198, 255, 198);
+    padding: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+
+.right_menu_con{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.app_man_menu{
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.app_man_menu li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.app_man_menu li .round_num{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.blue{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.no_data{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    min-height: 100px;
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+
+}
+
+
